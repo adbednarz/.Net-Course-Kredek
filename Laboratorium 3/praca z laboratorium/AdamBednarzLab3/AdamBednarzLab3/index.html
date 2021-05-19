@@ -1,0 +1,48 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Dane o stronie -->
+<head>
+    <meta charset="utf-8" />
+    <title>Reaction timer</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- Wygląd strony -->
+<body>
+    <!-- Nagłówek na naszej stronie -->
+    <header>
+        Test your reaction time!
+    </header>
+
+    <!-- Sekcja z przyciskiem i tabelą z wynikami -->
+    <section>
+        <!-- Kontener z opisem -->
+        <div id="description">
+            Play 5 rounds of reaction time tester and find out your average reaction time!
+        </div>
+
+        <!-- Kontener z tabelą z wynikami -->
+        <div class="right-half">
+            <h2>Your times:</h2>
+            <table id="times-table">
+            </table>
+        </div>
+
+        <!-- Kontener z przyciskiem do pomiaru -->
+        <div class="left-half">
+            <p>
+                <img id="button-timer" src="Images/buttonRed.png" onclick="StartIdle();" />
+            </p>
+        </div>
+    </section>
+
+    <!-- Podłączenie skryptu do strony -->
+    <script src="scripts/script.js"></script>
+    <script>ResetTimes();</script>
+    <script>UpdateTable(0);</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿
+/* Styl całego ciała strony */
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styl sekcji na stronie */
+section {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Styl przycisku sekcji na stronie */
+section button {
+    border: none;
+    background-color: darkgreen;
+    cursor: pointer;
+    padding: 7px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+/* Styl przycisku sekcji na stronie, gdy najedziemy myszką */
+section button:hover {
+    padding: 10px;
+}

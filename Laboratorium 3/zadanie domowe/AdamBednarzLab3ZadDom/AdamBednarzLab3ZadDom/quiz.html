@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<!-- Dane o stronie, icludowanie bootstrapa z szablonem quizowym -->
+<head>
+    <title>Quiz</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<!-- Wygląd strony -->
+<body>
+    <!-- Rozmieszczenie quizu na stronie -->
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <!-- Układ strony -->
+            <div class="col-md-10 col-lg-10">
+                <!-- Obramowanie całego quizu -->
+                <div class="border">
+                    <div class="question p-3 border-bottom">
+                        <!-- Number pytania-->
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4>Pytanie 1</h4>
+                        </div>
+                    </div>
+
+                    <div class="question bg-white p-3 border-bottom">
+                        <!-- Treść pytania -->
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 class="mt-1 ml-2">W którym kraju nie obowiązuje waluta Euro?</h5>
+                        </div>
+
+                        <!-- Kolejno opcje do zaznaczania odpowiedzi; clasa "m1-2" nadaje wcięcie -->
+                        <div class="ml-2" id="1">
+                            <label>
+                                <!-- checkbox i nazwa odpowiedzi-->
+                                <input type="radio"> <span>Kosowo</span>
+                            </label>
+                        </div>
+                        <div class="ml-2" id="2">
+                            <label>
+                                <input type="radio"> <span>Czarnogóra</span>
+                            </label>
+                        </div>
+                        <div class="ml-2" id="3">
+                            <label>
+                                <input type="radio"> <span>Watykan</span>
+                            </label>
+                        </div>
+                        <div class="ml-2" id="4">
+                            <label>
+                                <input type="radio"> <span>Szwecja</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Rozmieszczenie trzech elementów dolnego paska w równych odległościach; p-3 nadanie paddingu-->
+                    <div class="d-flex justify-content-between p-3">
+
+                        <!-- Dolny panel quizu z odmierzaniem czasu, z przyciskiem powrotu do stróny głównej i przyciskiem następnego pytania -->
+                        <label class="text-danger" id="counter">Czas: 20s</label>
+                        <button class="btn btn-primary">Przerwij</button>
+                        <button class="btn btn-success">Następne</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Podłączenie skryptu do strony -->
+    <script src="scripts/questionScript.js"></script>
+</body>
+</html>
+
+

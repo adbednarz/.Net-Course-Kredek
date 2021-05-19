@@ -1,0 +1,38 @@
+﻿
+/* Styl całego ciała strony */
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styl sekcji na stronie */
+section {
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5rem;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Styl paragrafu w sekcji na stronie */
+section p {
+    font-style: italic;
+}
+
+/* Styl przycisku sekcji na stronie */
+section button {
+    border: none;
+    background-color: brown;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+/* Styl przycisku sekcji na stronie, gdy najedziemy myszką */
+section button:hover {
+    padding: 10px;
+}

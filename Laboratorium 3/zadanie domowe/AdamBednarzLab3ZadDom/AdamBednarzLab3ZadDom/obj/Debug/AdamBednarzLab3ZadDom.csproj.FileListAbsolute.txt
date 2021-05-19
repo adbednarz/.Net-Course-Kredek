@@ -1,0 +1,2 @@
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 3\zadanie domowe\AdamBednarzLab3ZadDom\AdamBednarzLab3ZadDom\obj\Debug\AdamBednarzLab3ZadDom.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 3\zadanie domowe\AdamBednarzLab3ZadDom\AdamBednarzLab3ZadDom\obj\Debug\AdamBednarzLab3ZadDom.csproj.CoreCompileInputs.cache
