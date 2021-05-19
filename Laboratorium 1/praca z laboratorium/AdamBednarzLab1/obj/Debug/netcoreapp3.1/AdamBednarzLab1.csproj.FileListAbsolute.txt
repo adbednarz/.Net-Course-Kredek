@@ -1,0 +1,16 @@
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.exe
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.deps.json
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.runtimeconfig.json
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.runtimeconfig.dev.json
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.dll
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\bin\Debug\netcoreapp3.1\AdamBednarzLab1.pdb
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.csprojAssemblyReference.cache
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.Form1.resources
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.csproj.GenerateResource.cache
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.AssemblyInfoInputs.cache
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.AssemblyInfo.cs
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.dll
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.pdb
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.genruntimeconfig.cache
+C:\Users\Adam\source\repos\AdamBednarzLab1\AdamBednarzLab1\obj\Debug\netcoreapp3.1\AdamBednarzLab1.FormNew.resources

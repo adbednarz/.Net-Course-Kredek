@@ -1,0 +1,17 @@
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.exe
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.deps.json
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.runtimeconfig.json
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.runtimeconfig.dev.json
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.dll
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\bin\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.pdb
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.csproj.GenerateResource.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.AssemblyInfoInputs.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.AssemblyInfo.cs
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.dll
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.pdb
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.genruntimeconfig.cache
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.Properties.Resources.resources
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.Shop.resources
+C:\Users\Adam\Documents\GitHub\adam_bednarz_cpc2021-1\Laboratorium 1\zadanie domowe\AdamBednarzLab1ZadDom\obj\Debug\netcoreapp3.1\AdamBednarzLab1ZadDom.FormMain.resources

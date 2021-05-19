@@ -1,0 +1,44 @@
+Symulator gospodarstwa
+
+Na tematykê projektu wybra³em gospodarstwo wiejskie. Celem gry jest wzbogacanie siê na wytwarzanych przez gospodarstwo zasobach. Losowe zdarzenia pojawiaj¹ce siê co minutê, maj¹ na celu utrudniæ nam wzbogacenie siê.
+
+W gospodarstwie mamy cztery lokacjê:
+	1. Kurnik - posiada dwa rosn¹ce zasoby: kury i jaja.
+	2. Obora - posiada dwa rosn¹ce zasoby: krowy i mleko.
+	3. Spichlerz - posiada jeden rosn¹cy zasób: ziarno.
+	4. Ul - posiada dwa rosn¹ce zasoby: pszczo³y i miód.
+
+W ka¿dej lokacji mo¿emy sprzedawaæ dany zasób i zdobywaæ pieni¹dze. 
+
+W lokacjach kurnik i obora co jakiœ czas musimy karmiæ zwierzêta. Jeœli tego nie bêdziemy robiæ zasoby bêd¹ wytwarzane wolniej, a¿ w pewnym momencie kury lub/i krowy gin¹.
+
+Co pewien czas nastêpuje w sposób losowy œmieræ jakiegoœ zwierzêcia z przyczyn naturalnych.
+
+Wspomniane wczeœniej losowe zdarzenia to:
+	1. Wiejski gang. 
+		Efekt: utrata ca³ego byd³a
+		Zapobieganie: podarowanie 60 jaj
+	2. Wœcibski s¹siad. 
+		Efekt: zmniejszenie efektywnoœci plonów
+		Zapobieganie: podarowanie 10 worków zbo¿a
+	3. Ludzie z miasta.
+		Efekt: zmniejszenie efektywnoœci produkcji miodu
+		Zapobieganie: Podarowanie 5l miodu
+	4. Grasuj¹ce lisy.
+		Efekt: Zaduszenie po³owy kur
+		Zapobieganie: Remont kurnika
+
+
+W grze jest dostêpny sklep, w ktorym maj¹c odpowiedni¹ liczbê pieniêdzy mo¿na kupiæ wspomagacze.
+
+Wyró¿niamy 4 wspomagacze:
+	1. Nawóz: przyspiesza produkcjê ziaren.
+	2. Oprysk: przyspiesza produkcjê ziaren.
+	3. Lekarstwa: opóŸnia pojawianie siê losowej œmierci.
+	4. Witaminy: przyspiesza produkcjê jaj, mleka, miodu.
+
+Dany rodzaj wspomagacza mo¿e byæ rozró¿niany na kilka ró¿ni¹ce siê efektywnoœci¹.
+
+W lewym dolnym rogu okna gry jest umieszczony p³ot, na którym pojawiaj¹ siê wiadomoœci kierowane do gracza.
+
+Kwestie realnoœci i logiki symulacji gospodarstwa pozostawmy na boku. Liczy siê sprawna rozgrywka.
