@@ -1,0 +1,21 @@
+﻿@model List<BloodViewModel>
+
+
+<b>Przeciwny współczynnik Rh dla Twojej grupy:</b>
+<p>@ViewBag.Type @ViewBag.Rh </p>
+<p>@ViewBag.percentRh % populacji posiada tę grupę krwi</p>
+<hr />
+<ul>
+    <!-- Iterowanie po modelach grup krwi i wypisywanie wszystkich właściwośći -->
+    @foreach (var typeBlood in Model)
+    {
+        <li>
+            <p> Grupa krwi: <b>@typeBlood.Type</b></p>
+            <p> Rh+: @typeBlood.PercentRhPlus% populacji posiada tę grupę krwi</p>
+            <p> Rh-: @typeBlood.PercentRhMinus% populacji posiada tę grupę krwi</p>
+            <p style="font-style: italic;"> @typeBlood.Description</p>
+        </li>
+    }
+</ul>
+
+@Html.ActionLink("Wróć do strony głównej", "Index", "Home", null, new { @class = "btn btn-primary" })

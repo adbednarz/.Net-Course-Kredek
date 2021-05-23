@@ -1,0 +1,28 @@
+﻿
+@using (Html.BeginForm("EyesWindowToTheSoulForm", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Wybór pomiędzy kolorami oczu -->
+    <div class="border mb-3">
+        <div class="border-bottom p-3">
+            <h2> Wybierz kolor oczu: </h2>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 0, true) Niebieskie</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 1) Zielone</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 2) Brązowe</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 3) Szare</p>
+        </div>
+    </div>
+
+    <div class="col-md-offset-2 cold-md-10">
+        <input type="submit" value="Dalej" class="btn btn-success" />
+    </div>
+}

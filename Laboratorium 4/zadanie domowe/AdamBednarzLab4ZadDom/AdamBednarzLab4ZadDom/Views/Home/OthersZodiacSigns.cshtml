@@ -1,0 +1,18 @@
+﻿@model List<ZodiacViewModel>
+
+<ul>
+    <!-- Iterowanie po modelach znaków zodiaku i wypisywanie wszystkich właściwośći -->
+    @foreach (var zodiacSign in Model)
+    {
+        <li>
+            <h4> Znak zodiaku: @zodiacSign.Sign</h4>
+            <p style="font-style: italic;"> @zodiacSign.Date</p>
+            <img src="@Url.Content(zodiacSign.Photo)" alt="@zodiacSign.Sign" />
+            <hr />
+            <p> @zodiacSign.Description</p>
+            <hr />
+        </li>
+    }
+</ul>
+
+@Html.ActionLink("Wróć do strony głównej", "Index", "Home", null, new { @class = "btn btn-primary" })

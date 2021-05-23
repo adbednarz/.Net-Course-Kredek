@@ -1,0 +1,53 @@
+﻿
+@using (Html.BeginForm("ZodiacSignsForm", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+
+    <!-- Wybór pomiędzy znakami zodiaku -->
+    <div class="border mb-3">
+        <div class="border-bottom p-3">
+            <h2> Wybierz znak zodiaku: </h2>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 0, true) Baran</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 1) Byk</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 2) Bliźnięta</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 3) Rak</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 4) Lew</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 5) Panna</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 6) Waga</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 7) Skorpion</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 8) Strzelece</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 9) Koziorożec</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 10) Wodnik</p>
+        </div>
+        <div class="col-md-10 p-1">
+            <p>@Html.RadioButton("index", 11) Ryby</p>
+        </div>
+    </div>
+
+    <div class="col-md-offset-2 cold-md-10">
+        <input type="submit" value="Dalej" class="btn btn-success" />
+    </div>
+}

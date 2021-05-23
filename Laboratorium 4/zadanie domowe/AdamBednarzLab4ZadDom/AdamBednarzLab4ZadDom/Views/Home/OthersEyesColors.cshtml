@@ -1,0 +1,15 @@
+﻿@model List<EyesViewModel>
+
+<ul>
+    <!-- Iterowanie po modelach koloru oczu i wypisywanie wszystkich właściwośći -->
+    @foreach (var eyesColor in Model)
+    {
+        <li>
+            <p> Kolor oczu: <b>@eyesColor.Color</b></p>
+            <p> @eyesColor.Percent% populacji posiada taką barwę oczu.</p>
+            <p style="font-style: italic;"> @eyesColor.Description </p>
+        </li>
+    }
+</ul>
+
+@Html.ActionLink("Wróć do strony głównej", "Index", "Home", null, new { @class = "btn btn-primary" })

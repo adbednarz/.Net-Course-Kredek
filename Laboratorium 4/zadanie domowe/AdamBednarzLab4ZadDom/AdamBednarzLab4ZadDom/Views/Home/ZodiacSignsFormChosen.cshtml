@@ -1,0 +1,16 @@
+﻿
+<div>
+    <h3>
+        Wybrany znak zodiaku: @ViewBag.Sign
+    </h3>
+    <p style="font-style: italic;">
+        @ViewBag.Date 
+    </p>
+    <img src="@Url.Content(ViewBag.Photo)" alt="@ViewBag.Sign" />
+    <hr />
+    <p>
+        @ViewBag.Description
+    </p>
+    <hr />
+    @Html.ActionLink("Zobacz charakterystykę innych znaków zodiaku", "OthersZodiacSigns", "Home")
+</div>

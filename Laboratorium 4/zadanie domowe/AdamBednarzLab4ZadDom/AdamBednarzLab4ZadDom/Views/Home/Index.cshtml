@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>Ciekawostki mniej lub bardziej prawdziwe</h3>
+
+    <ul>
+        <li>
+            @Html.ActionLink("Tajniki krwi", "SecretsOfBloodForm", "Home")
+        </li>
+        <li>
+            @Html.ActionLink("Oczy zwierciadłem duszy", "EyesWindowToTheSoulForm", "Home")
+        </li>
+        <li>
+            @Html.ActionLink("Znaki zodiaku", "ZodiacSignsForm", "Home")
+        </li>
+    </ul>
+</div>
