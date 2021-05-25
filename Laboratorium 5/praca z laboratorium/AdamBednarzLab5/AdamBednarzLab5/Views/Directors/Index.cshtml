@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Director>
+
+@{
+    ViewData["Title"] = "Lista filmów";
+}
+
+<p>
+    @Html.ActionLink("Utwórz nowy", "Create", "Directors")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.LastName)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var director in Model)
+        {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => director.Id)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => director.FirstName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => director.LastName)
+            </th>
+            <th>
+                @Html.ActionLink("Usuń", "Delete", "Directors", routeValues: new {id = director.Id})
+            </th>
+        </tr>
+        }
+    </tbody>
+</table>
