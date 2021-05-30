@@ -7,3 +7,5 @@ Laboratorium 2 - implementacja połączenia z bazą danych i opracowanie CRUD dl
 Laboratorium 3 - webowy quiz przy użyciu Bootstrap i JQuery,
 
 Laboratorium 4 - stworzenie parę interaktywnych stron korzystając z wzorca projektowego MVC (Model, View, Controller)
+
+Laboratorium 5 - wykorzystanie Entity Framework, stworzenie podstawowej bazy danych za pomocą kodu i obsługe jej za pomocą MVC
