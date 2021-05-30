@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Country>
+
+<p>
+    @Html.ActionLink("Dodaj", "Create", "Countries")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalWinnerBattles)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var country in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => country.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => country.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => country.TotalWinnerBattles)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", "Countries", routeValues: new { id = country.Id })
+                @Html.ActionLink("Usuń", "Delete", "Countries", routeValues: new { id = country.Id })
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Battle>
+
+@{
+    ViewData["Title"] = "Lista bitew";
+}
+
+<p>
+    @Html.ActionLink("Dodaj" +
+    "", "Create", "Battles")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Commander)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var battle in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => battle.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => battle.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => battle.AgeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => battle.CountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => battle.CommanderId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => battle.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", "Battles", routeValues: new { id = battle.Id })
+                @Html.ActionLink("Usuń", "Delete", "Battles", routeValues: new { id = battle.Id })
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

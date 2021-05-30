@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Commander>
+
+<p>
+    @Html.ActionLink("Dodaj", "Create", "Commanders")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var commander in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => commander.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => commander.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => commander.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => commander.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", "Commanders", routeValues: new { id = commander.Id })
+                @Html.ActionLink("Usuń", "Delete", "Commanders", routeValues: new { id = commander.Id })
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

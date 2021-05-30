@@ -1,0 +1,28 @@
+﻿@model Age
+
+
+@using (Html.BeginForm("Create", "Ages", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Name)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.YearOfStart)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.YearOfStart)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.YearOfEnd)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.YearOfEnd)
+        </div>
+    </div>
+
+    <input type="submit" value="Dodaj epokę" class="btn btn-primary" />
+}

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Age>
+
+<p>
+    @Html.ActionLink("Dodaj", "Create", "Ages")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearOfStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearOfEnd)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var age in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => age.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => age.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => age.YearOfStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => age.YearOfEnd)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", "Ages", routeValues: new { id = age.Id })
+                @Html.ActionLink("Usuń", "Delete", "Ages", routeValues: new { id = age.Id })
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

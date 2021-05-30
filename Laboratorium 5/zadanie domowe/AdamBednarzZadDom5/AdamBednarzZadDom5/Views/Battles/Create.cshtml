@@ -1,0 +1,49 @@
+﻿@model Battle
+
+
+@using (Html.BeginForm("Create", "Battles", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Name)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Year)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Year)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Age)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.AgeId)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Country)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.CountryId)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Commander)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.CommanderId)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Description)
+        </div>
+    </div>
+
+    <input type="submit" value="Dodaj bitwę" class="btn btn-primary" />
+}
