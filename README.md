@@ -9,3 +9,5 @@ Laboratorium 3 - webowy quiz przy użyciu Bootstrap i JQuery,
 Laboratorium 4 - stworzenie parę interaktywnych stron korzystając z wzorca projektowego MVC (Model, View, Controller)
 
 Laboratorium 5 - wykorzystanie Entity Framework, stworzenie podstawowej bazy danych za pomocą kodu przy użyciu wzorca projektowego MVC
+
+Laboratorium 6 - stworzenie prostego WEB API podłączonego do bazy MSSQL z użyciem entity framework
