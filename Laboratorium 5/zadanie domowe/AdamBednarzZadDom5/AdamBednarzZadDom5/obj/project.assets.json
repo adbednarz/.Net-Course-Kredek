@@ -5805,11 +5805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\source\\repos\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
+      "projectUniqueName": "C:\\Users\\Adam\\Documents\\GitHub\\.Net-Course-Kredek\\Laboratorium 5\\zadanie domowe\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
       "projectName": "AdamBednarzZadDom5",
-      "projectPath": "C:\\Users\\Adam\\source\\repos\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
+      "projectPath": "C:\\Users\\Adam\\Documents\\GitHub\\.Net-Course-Kredek\\Laboratorium 5\\zadanie domowe\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
       "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\source\\repos\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\obj\\",
+      "outputPath": "C:\\Users\\Adam\\Documents\\GitHub\\.Net-Course-Kredek\\Laboratorium 5\\zadanie domowe\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fz64I6TBR2MJSWzi47b8TN2e1U+4v9J8QJhv7mJncrBI1uPMmApGjQcERIjLKpOv6Ji52Ojk7hDIW9yUY4jfzw==",
+  "dgSpecHash": "FLi8kb+LwUwQH1N8lZew2NHWBsqqEx3zrEjZq7q9AYH7OeYX2sH7Uru4NoQflzqvf2wFkmQsWDfGJgRQRbzdqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adam\\source\\repos\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
+  "projectFilePath": "C:\\Users\\Adam\\Documents\\GitHub\\.Net-Course-Kredek\\Laboratorium 5\\zadanie domowe\\AdamBednarzZadDom5\\AdamBednarzZadDom5\\AdamBednarzZadDom5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adam\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
