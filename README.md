@@ -13,3 +13,5 @@ Laboratorium 5 - wykorzystanie Entity Framework, stworzenie podstawowej bazy dan
 Laboratorium 6 - stworzenie prostego WEB API podłączonego do bazy MSSQL z użyciem entity framework
 
 Laboratorium 7 - aplikacja napisana w React, służąca jako kalkulator BMI i pobierające dane w postaci JSON z internetu
+
+Laboratorium 8 - aplikacja napisana w React podpięta z WEB API z laboratorium 6
